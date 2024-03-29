@@ -1,16 +1,10 @@
 #!/usr/bin/python3
-"""
-Defines a class called state that inherits from basemodel
-"""
+"""This module creates a User class"""
+
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """
-    Represent a state
+    """Class for managing state objects"""
 
-    Attributes:
-        name (str): The name of the state
-
-    """
     name = ""
